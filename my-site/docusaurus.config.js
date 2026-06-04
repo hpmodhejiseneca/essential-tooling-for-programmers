@@ -41,6 +41,7 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
         title: 'Essential Tooling for Programmers',
@@ -53,11 +54,13 @@ const config = {
         style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} Seneca Polytechnic.`,
       },
+      docs: { sidebar: { hideable: true } },
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+      
       prism: {
         theme: themes.github,
         darkTheme: themes.dracula,
