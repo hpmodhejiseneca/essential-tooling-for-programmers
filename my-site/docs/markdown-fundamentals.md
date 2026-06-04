@@ -542,28 +542,40 @@ For additional resources, visit the [online textbook](https://www.example.com/bi
 ### Forgetting Spaces
 
 ```markdown
-Wrong:  #This heading won't work
-Correct: # This heading will work
+Wrong:
+
+#This heading won't work
+
+Correct:
+
+# This heading will work
 ```
 
 ### Mixing Up Syntax
 
 ```markdown
-Wrong:   *This should be bold*
-Correct: **This should be bold**
+Wrong:
+
+*This should be bold*
+
+Correct:
+
+**This should be bold**
 ```
 
 ### Not Using Empty Lines
 
 ```markdown
 Wrong:
-# Heading
-This paragraph is too close to the heading.
+
+Line #1
+Line #2
 
 Correct:
-# Heading
 
-This paragraph has proper spacing.
+Line #1
+
+Line #2
 ```
 
 ---
